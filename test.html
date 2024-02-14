@@ -1,0 +1,79 @@
+ <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Add some basic styling to the button */
+    #moveButton {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  </style>
+  <title>Move Button Example</title>
+</head>
+<body>
+
+<button id="moveButton" onclick="moveButton()">Click me to move</button>
+
+<script>
+  function moveButton() {
+    // Get the button element
+    var button = document.getElementById("moveButton");
+
+    // Calculate random positions for the button
+    var randomX = Math.floor(Math.random() * window.innerWidth);
+    var randomY = Math.floor(Math.random() * window.innerHeight);
+
+    // Set the button's new position
+    button.style.left = randomX + "px";
+    button.style.top = randomY + "px";
+  }
+</script>
+
+</body>
+</html> -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+     /* Add some basic styling to the button */
+     #moveButton {
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       padding: 10px 20px;
+       cursor: pointer;
+     }
+   </style>
+   <title>Move Button Example</title>
+ </head>
+ <body>
+ 
+ <button id="moveButton" onmouseover="moveButton()">Li xi ne</button>
+ 
+ <script>
+   function moveButton() {
+     // Get the button element
+     var button = document.getElementById("moveButton");
+ 
+     // Calculate random positions for the button
+     var randomX = Math.floor(Math.random() * window.innerWidth);
+     var randomY = Math.floor(Math.random() * window.innerHeight);
+ 
+     // Set the button's new position
+     button.style.left = randomX + "px";
+     button.style.top = randomY + "px";
+   }
+ </script>
+ 
+ </body>
+ </html>
+  
